@@ -32,7 +32,31 @@
 </head>
 
 <body class="metro" style="background-color: #efeae3">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
+    /*********************************************************************
+      #### Twitter Post Fetcher! ####
+      Coded by Jason Mayes 2013.
+      www.jasonmayes.com
+      Please keep this disclaimer with my code if you use it. Thanks. :-)
+      Got feedback or questions, ask here: http://goo.gl/JinwJ
+    *********************************************************************/
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+            if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;
+                js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+        }(document,"script","twitter-wjs");
+    </script>
     <div class="">
         <header class="bg-dark" data-load="header.html"></header>
 
@@ -64,11 +88,11 @@
                     </div>
                     <div class="span1"></div>
                     <div class="span4">
-                        <img src="images/fb.png">
+                        <div class="fb-like-box" data-height=130 data-width=330 data-href="https://www.facebook.com/asociacionsindromedowncochabamba" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
                         <br/>
                         <br/>
-                        <br/>
-                        <img src="images/twitter.png">
+                        <div class="twitter-timeline" height=130 href="https://twitter.com/ASDCochabamba" data-widget-id="577927710187655168"></div>
+
                     </div>
                 </div>
             </div>
