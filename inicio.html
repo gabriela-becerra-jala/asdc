@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -47,18 +48,28 @@
         <div class="container" style="position: relative; top: 19px;">
             <div class="grid no-margin">
                 <div class="row">
-                        <div class="span2"></div>
-                        <div class="span8">
-                            <img src="images/slide1.png">
+                    <div class="span2"></div>
+                    <div class="span8">
+                        <div class="carousel" data-role="carousel">
+                            <div class="slide">
+                                <img src="images/slide1.png">
+                            </div>
+                            <div class="slide">
+                                <img src="images/slide1.png">
+                            </div>
+
+                            <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+                            <a class="controls right"><i class="icon-arrow-right-3"></i></a>
                         </div>
-                        <div class="span1"></div>
-                        <div class="span4">
-                            <img src="images/fb.png">
-                            <br/>
-                            <br/>
-                            <br/>
-                            <img src="images/twitter.png">
-                        </div>
+                    </div>
+                    <div class="span1"></div>
+                    <div class="span4">
+                        <img src="images/fb.png">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="images/twitter.png">
+                    </div>
                 </div>
             </div>
             <pre class="prettyprint linenums no-phone" style="margin-top: 10px;">
@@ -90,19 +101,6 @@
                         <p class="fg-white">Terapeuta ...</p>
                     </div>
                 </div>
-                <script>
-                $(function() {
-                    $("#carousel2").carousel({
-                        height: 210,
-                        period: 5000,
-                        duration: 1000,
-                        effect: 'fade',
-                        markers: {
-                            show: false
-                        }
-                    });
-                })
-                </script>
             </div>
         </div>
 
