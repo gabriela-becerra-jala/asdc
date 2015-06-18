@@ -10,25 +10,18 @@
         <?= link_tag(base_url().'css/metro.css')?>
         <?= link_tag(base_url().'css/metro-icons.css')?>
         <?= link_tag(base_url().'css/asdc.css')?>
+        <?= link_tag(base_url().'css/pretiffy/pretiffy.css')?>
         <?= script_tag (base_url().'js/metro.js')?>
-        <?= script_tag (base_url().'js/basic.js')?>
+        <!--<?= script_tag (base_url().'js/basic.js')?>-->
         <?= script_tag (base_url().'js/select2.min.js')?>
-        <!--<?= script_tag (base_url().'js/ga.js')?>-->
-        <!--<?= script_tag (base_url().'js/prettify/run_prettify.js')?>-->
+        <?= script_tag (base_url().'js/ga.js')?>-->
+        <?= script_tag (base_url().'js/prettify/run_prettify.js')?>
+        <?= script_tag (base_url().'js/prettify/prettify.js')?>
         <?= script_tag (base_url().'js/select2.min.js')?>
         <?= script_tag (base_url().'js/jquery.dataTables.min.js')?>
 
 
-<style>
-  #toolbar {
-    padding: 4px;
-    display: inline-block;
-  }
-  /* support: IE7 */
-  *+html #toolbar {
-    display: inline;
-  }
-  </style>
+
   <script>
 
   </script>

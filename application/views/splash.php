@@ -46,7 +46,7 @@
             <div class="row cells12">
                 <div class="cell"></div>
                 <div class="cell colspan10">
-                    <a class="tile-large bg-orange fg-white" data-role="tile" href="<?=base_url()."information"?>">
+                    <a class="tile-large bg-orange fg-white" data-role="tile" href="<?=base_url().'info/fonoaudio'?>">
                         <div class="tile-content">
                             <div class="image-container">
                                 <div class="frame">
@@ -55,7 +55,7 @@
                                 <div class="image-overlay op-green">
                                     <h2>Terapias</h2>
                                     <p>
-                                        Fonoaudiologia <br>
+                                        Fonoaudiologia<br>
                                         Fisitoreapia <br>
                                         Estimulacion Temprana <br>
                                         Indeoendencia del Hogar <br>
