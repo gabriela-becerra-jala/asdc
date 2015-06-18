@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Apr 19, 2015, 5:57:30 PM
+    Author     : phantom
+*/
+
+body {
+    font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+    font-size: 72.5%;
+}
+
+.loading {
+    top:0;left:0;
+    color:#fff;
+    padding:0px 0px 0px 30px;
+    margin: 10px 0px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-image: url('../images/loader.gif');
+    display: inline;
+}
+
